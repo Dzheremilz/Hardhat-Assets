@@ -26,7 +26,7 @@ exports.deployed = async (contractName, networkName, address) => {
   _chainObj[networkName] = _addrObj;
   _networksObj = { ...obj[contractName], ..._chainObj };
   obj[contractName] = _networksObj;
-  jsonString = JSON.stringify(obj);
+  jsonString = JSON.stringify(obj, null, 1);
 
   try {
     await writeFile(FILE_PATH, jsonString);

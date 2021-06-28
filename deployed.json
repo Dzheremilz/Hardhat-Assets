@@ -1,0 +1,29 @@
+{
+ "WETH": {
+  "hardhat": {
+   "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+  },
+  "ropsten": {
+   "address": "0x83fe13E4f8AD2F470298584f1bbb3a7180EA02ca"
+  },
+  "kovan": {
+   "address": "0x83fe13E4f8AD2F470298584f1bbb3a7180EA02ca"
+  },
+  "rinkeby": {
+   "address": "0x83fe13E4f8AD2F470298584f1bbb3a7180EA02ca"
+  },
+  "goerli": {
+   "address": "0x83fe13E4f8AD2F470298584f1bbb3a7180EA02ca"
+  }
+ },
+ "CollateralToken": {
+  "rinkeby": {
+   "address": "0x8d29A94cf969bF461d40737757bC105c7f1e3fA3"
+  }
+ },
+ "CollateralBackedToken": {
+  "rinkeby": {
+   "address": "0xDF92216C3936ffe648D2aCcC264ca0255832d602"
+  }
+ }
+}
